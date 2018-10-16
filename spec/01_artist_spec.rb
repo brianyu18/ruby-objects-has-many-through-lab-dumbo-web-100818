@@ -42,6 +42,8 @@ describe "Artist" do
     end
   end
 
+  # binding.pry
+
   describe "#genres" do
     it "has many genres, through songs" do
       jay_z = Artist.new("Jay-Z")
